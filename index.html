@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio de João Pedro Santos Silva, desenvolvedor de software focado em interfaces, sistemas de gestão e experiências digitais."
+    />
+    <meta name="theme-color" content="#0a0a0a" />
+    <meta property="og:title" content="João Pedro | Desenvolvedor de Software" />
+    <meta
+      property="og:description"
+      content="Interfaces bem pensadas, sistemas úteis e produtos digitais que funcionam de verdade."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>João Pedro | Desenvolvedor de Software</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "João Pedro Santos Silva",
+        "jobTitle": "Desenvolvedor de Software",
+        "url": "https://github.com/grimm5766-bot",
+        "sameAs": [
+          "https://github.com/grimm5766-bot",
+          "https://www.linkedin.com/in/joaopedrosantossilva2007"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <header class="site-header" data-header>
+      <div class="container nav-shell">
+        <a class="brand" href="#inicio" aria-label="Ir para o início">
+          <span class="brand-mark">JP</span>
+          <span class="brand-name">João Pedro</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+          aria-controls="main-nav"
+          data-menu-toggle
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav" id="main-nav" aria-label="Navegação principal" data-nav>
+          <a href="#projetos">Projetos</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#stack">Stack</a>
+          <a class="nav-cta" href="#contato">Vamos conversar <span>↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero section" id="inicio">
+        <div class="container hero-grid">
+          <div class="hero-copy" data-reveal>
+            <div class="eyebrow">
+              <span class="status-dot"></span>
+              Disponível para novos projetos
+            </div>
+            <h1>
+              Eu transformo ideias em
+              <span class="highlight">produtos digitais.</span>
+            </h1>
+            <p class="hero-text">
+              Sou João Pedro, desenvolvedor de software focado em criar interfaces
+              claras, sistemas de gestão e experiências que simplificam o dia a dia.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projetos">
+                Explorar projetos
+                <span aria-hidden="true">↓</span>
+              </a>
+              <a
+                class="button button-ghost"
+                href="https://github.com/grimm5766-bot"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ver GitHub
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+            <div class="hero-proof" aria-label="Resumo profissional">
+              <div>
+                <strong>05</strong>
+                <span>repositórios públicos</span>
+              </div>
+              <div>
+                <strong>04+</strong>
+                <span>produtos em colaboração</span>
+              </div>
+              <div>
+                <strong>100%</strong>
+                <span>foco em experiência</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual" data-reveal data-delay="120" aria-hidden="true">
+            <div class="visual-orbit orbit-one"></div>
+            <div class="visual-orbit orbit-two"></div>
+            <div class="code-window">
+              <div class="window-bar">
+                <div class="window-dots"><i></i><i></i><i></i></div>
+                <span>joao@dev:~/portfolio</span>
+              </div>
+              <div class="code-body">
+                <p><span class="code-purple">const</span> developer = {</p>
+                <p class="indent">
+                  name: <span class="code-green">'João Pedro'</span>,
+                </p>
+                <p class="indent">
+                  focus: <span class="code-green">'produtos úteis'</span>,
+                </p>
+                <p class="indent">
+                  mindset: <span class="code-green">'sempre evoluindo'</span>
+                </p>
+                <p>};</p>
+                <p class="code-comment">// construindo a próxima solução...</p>
+                <div class="terminal-line">
+                  <span>›</span>
+                  <span class="typing-text">npm run create</span>
+                  <i></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card floating-card">
+              <div class="mini-header">
+                <span>Produto em produção</span>
+                <i></i>
+              </div>
+              <div class="mini-chart">
+                <span style="height: 35%"></span>
+                <span style="height: 52%"></span>
+                <span style="height: 44%"></span>
+                <span style="height: 75%"></span>
+                <span style="height: 62%"></span>
+                <span style="height: 91%"></span>
+              </div>
+              <div class="mini-footer">
+                <strong>Interface + lógica</strong>
+                <span>em sintonia</span>
+              </div>
+            </div>
+
+            <span class="tech-chip chip-react">React</span>
+            <span class="tech-chip chip-ts">TypeScript</span>
+            <span class="tech-chip chip-next">Next.js</span>
+          </div>
+        </div>
+        <div class="hero-marquee" aria-hidden="true">
+          <div class="marquee-track">
+            <span>DESIGN DE INTERFACE</span><i></i>
+            <span>DESENVOLVIMENTO WEB</span><i></i>
+            <span>SISTEMAS DE GESTÃO</span><i></i>
+            <span>EXPERIÊNCIA MOBILE</span><i></i>
+            <span>DESIGN DE INTERFACE</span><i></i>
+            <span>DESENVOLVIMENTO WEB</span><i></i>
+            <span>SISTEMAS DE GESTÃO</span><i></i>
+            <span>EXPERIÊNCIA MOBILE</span><i></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects section" id="projetos">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <div>
+              <span class="section-kicker">Trabalho selecionado</span>
+              <h2>Projetos que saíram<br />do papel.</h2>
+            </div>
+            <p>
+              Uma seleção de interfaces, sistemas e experimentos nos quais participei,
+              cada um resolvendo um tipo diferente de problema.
+            </p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card project-wide project-rixto" data-reveal>
+              <div class="project-copy">
+                <div class="project-meta">
+                  <span class="project-number">01</span>
+                  <span class="project-state online">Projeto em produção</span>
+                </div>
+                <h3>Rixto Gestor</h3>
+                <p>
+                  Gestão completa de torneios esportivos, da organização dos times ao
+                  placar em tempo real exibido para o público.
+                </p>
+                <ul class="tag-list" aria-label="Tecnologias">
+                  <li>Next.js</li>
+                  <li>TypeScript</li>
+                  <li>Supabase</li>
+                  <li>Realtime</li>
+                </ul>
+                <div class="project-links">
+                  <a
+                    href="https://rixtogestor.vercel.app/ao-vivo"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Ver projeto <span>↗</span></a
+                  >
+                  <a
+                    href="https://github.com/grimm5766-bot/GestaoTorneio"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Código <span>↗</span></a
+                  >
+                </div>
+              </div>
+              <div class="project-preview scoreboard-preview" aria-hidden="true">
+                <div class="scoreboard-top">
+                  <div><i></i> AO VIVO</div>
+                  <span>QUADRA 01</span>
+                </div>
+                <div class="scoreboard-title">TORNEIO RIXTO</div>
+                <div class="scoreboard-teams">
+                  <div class="team">
+                    <span class="team-badge team-a">A</span>
+                    <strong>ALPHA</strong>
+                  </div>
+                  <div class="score"><strong>21</strong><span>02:41</span><strong>18</strong></div>
+                  <div class="team">
+                    <span class="team-badge team-b">B</span>
+                    <strong>BLAZE</strong>
+                  </div>
+                </div>
+                <div class="scoreboard-stats">
+                  <span><i style="width: 72%"></i></span>
+                  <span><i style="width: 54%"></i></span>
+                  <span><i style="width: 86%"></i></span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card project-vanrotas" data-reveal>
+              <div class="project-copy">
+                <div class="project-meta">
+                  <span class="project-number">02</span>
+                  <span class="project-state online">Demo pública</span>
+                </div>
+                <h3>VanRotas</h3>
+                <p>
+                  Experiência mobile-first para passageiros, motoristas e
+                  administradores acompanharem rotas, presença e pagamentos.
+                </p>
+                <ul class="tag-list" aria-label="Tecnologias">
+                  <li>React</li>
+                  <li>JavaScript</li>
+                  <li>CSS</li>
+                </ul>
+                <div class="project-links">
+                  <a
+                    href="https://vanrotas.vercel.app"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Ver projeto <span>↗</span></a
+                  >
+                  <a
+                    href="https://github.com/grimm5766-bot/vanrotas"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Código <span>↗</span></a
+                  >
+                </div>
+              </div>
+              <div class="project-preview phone-preview" aria-hidden="true">
+                <div class="phone-shell">
+                  <div class="phone-status"><span>17:33</span><i></i></div>
+                  <div class="phone-hero">
+                    <small>VANROTAS</small>
+                    <strong>Área do<br />passageiro</strong>
+                    <span>Próxima rota confirmada.</span>
+                  </div>
+                  <div class="phone-tabs"><b>Passageiro</b><span>Motorista</span><span>Admin</span></div>
+                  <div class="phone-route">
+                    <div class="route-icon">✓</div>
+                    <div><small>CONFIRMAÇÃO</small><strong>Presença confirmada</strong></div>
+                  </div>
+                  <div class="phone-nav"><i></i><i></i><i></i><i></i></div>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card project-gaio" data-reveal data-delay="80">
+              <div class="project-copy">
+                <div class="project-meta">
+                  <span class="project-number">03</span>
+                  <span class="project-state restricted">Acesso por conta</span>
+                </div>
+                <h3>Gaio</h3>
+                <p>
+                  Plataforma de produtividade e gestão de tarefas com uma interface
+                  leve para organizar equipes, prioridades e entregas.
+                </p>
+                <ul class="tag-list" aria-label="Características">
+                  <li>Gestão</li>
+                  <li>Produtividade</li>
+                  <li>Dashboard</li>
+                </ul>
+                <div class="project-links">
+                  <a
+                    href="https://gestorgaio.com.br/tarefas"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Visitar sistema <span>↗</span></a
+                  >
+                </div>
+              </div>
+              <div class="project-preview gaio-preview" aria-hidden="true">
+                <div class="gaio-window">
+                  <div class="gaio-sidebar">
+                    <b>G</b>
+                    <i></i><i></i><i></i><i></i>
+                  </div>
+                  <div class="gaio-content">
+                    <div class="gaio-heading"><strong>Minhas tarefas</strong><span>+</span></div>
+                    <div class="task-row"><i></i><span>Revisar novo fluxo</span><b>HOJE</b></div>
+                    <div class="task-row"><i></i><span>Atualizar dashboard</span><b>UI</b></div>
+                    <div class="task-row done"><i></i><span>Planejar sprint</span><b>OK</b></div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card project-dog" data-reveal>
+              <div class="project-copy">
+                <div class="project-meta">
+                  <span class="project-number">04</span>
+                  <span class="project-state restricted">Acesso restrito</span>
+                </div>
+                <h3>Dog Dock</h3>
+                <p>
+                  Protótipo acadêmico criado para demonstrar visualmente o
+                  funcionamento de árvores binárias.
+                </p>
+                <ul class="tag-list" aria-label="Características">
+                  <li>Acadêmico</li>
+                  <li>Algoritmos</li>
+                  <li>Visualização</li>
+                </ul>
+                <div class="project-links">
+                  <a href="https://dogdock.netlify.app/" target="_blank" rel="noreferrer"
+                    >Ver projeto <span>↗</span></a
+                  >
+                  <a
+                    href="https://github.com/grimm5766-bot/DOG_Dock"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Repositório <span>↗</span></a
+                  >
+                </div>
+              </div>
+              <div class="project-preview tree-preview" aria-hidden="true">
+                <div class="tree-lines">
+                  <span class="line l1"></span><span class="line l2"></span>
+                  <span class="line l3"></span><span class="line l4"></span>
+                  <span class="line l5"></span><span class="line l6"></span>
+                </div>
+                <div class="node root">42</div>
+                <div class="node n-left">21</div>
+                <div class="node n-right">64</div>
+                <div class="node n-one">10</div>
+                <div class="node n-two">32</div>
+                <div class="node n-three">55</div>
+                <div class="node n-four">78</div>
+              </div>
+            </article>
+
+            <article class="project-card project-captu" data-reveal data-delay="80">
+              <div class="project-copy">
+                <div class="project-meta">
+                  <span class="project-number">05</span>
+                  <span class="project-state maintenance">Em manutenção</span>
+                </div>
+                <h3>Captu Library</h3>
+                <p>
+                  Projeto web de biblioteca digital. A demonstração pública está
+                  temporariamente indisponível, mas o trabalho segue no portfólio.
+                </p>
+                <ul class="tag-list" aria-label="Características">
+                  <li>Biblioteca</li>
+                  <li>Interface Web</li>
+                  <li>Organização</li>
+                </ul>
+                <div class="project-links">
+                  <a
+                    href="https://captu-libraly.web.app/Captu_library/index.html"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Ver endereço <span>↗</span></a
+                  >
+                </div>
+              </div>
+              <div class="project-preview library-preview" aria-hidden="true">
+                <div class="book book-one"><i></i><span>CAPTU</span></div>
+                <div class="book book-two"><i></i><span>LIBRARY</span></div>
+                <div class="book book-three"><i></i><span>VOL. 01</span></div>
+                <div class="library-label">Biblioteca digital</div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="sobre">
+        <div class="container about-grid">
+          <div class="about-intro" data-reveal>
+            <span class="section-kicker">Sobre mim</span>
+            <h2>Curiosidade técnica.<br />Olhar de produto.</h2>
+          </div>
+          <div class="about-copy" data-reveal data-delay="100">
+            <p class="about-lead">
+              Gosto de entender o problema antes de escolher a tecnologia.
+            </p>
+            <p>
+              Minha experiência passa por sistemas de gestão, interfaces mobile-first,
+              aplicações em tempo real e projetos acadêmicos. Em cada entrega, busco
+              equilibrar clareza visual, código organizado e uma experiência que faça
+              sentido para quem está usando.
+            </p>
+            <p>
+              Estou construindo minha trajetória por meio de projetos práticos,
+              colaboração e aprendizado constante, sempre com vontade de transformar
+              ideias em soluções cada vez melhores.
+            </p>
+            <div class="about-links">
+              <a
+                href="https://www.linkedin.com/in/joaopedrosantossilva2007"
+                target="_blank"
+                rel="noreferrer"
+                >LinkedIn <span>↗</span></a
+              >
+              <a
+                href="https://github.com/grimm5766-bot"
+                target="_blank"
+                rel="noreferrer"
+                >GitHub <span>↗</span></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="container principles-grid">
+          <article data-reveal>
+            <span>01</span>
+            <h3>Entender</h3>
+            <p>Mapear o objetivo, o usuário e o que realmente precisa ser resolvido.</p>
+          </article>
+          <article data-reveal data-delay="80">
+            <span>02</span>
+            <h3>Construir</h3>
+            <p>Transformar a ideia em uma interface funcional, responsiva e consistente.</p>
+          </article>
+          <article data-reveal data-delay="160">
+            <span>03</span>
+            <h3>Evoluir</h3>
+            <p>Testar, observar e melhorar o produto com base no uso e no aprendizado.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="stack section" id="stack">
+        <div class="container stack-shell">
+          <div class="stack-copy" data-reveal>
+            <span class="section-kicker">Ferramentas e tecnologias</span>
+            <h2>Do front à lógica do produto.</h2>
+            <p>
+              Tecnologias que já fazem parte da minha rotina e outras que sigo
+              aprofundando em novos projetos.
+            </p>
+          </div>
+          <div class="stack-list" data-reveal data-delay="100">
+            <span><i>#</i> HTML</span>
+            <span><i>#</i> CSS</span>
+            <span><i>#</i> JavaScript</span>
+            <span><i>#</i> TypeScript</span>
+            <span><i>#</i> React</span>
+            <span><i>#</i> Next.js</span>
+            <span><i>#</i> Supabase</span>
+            <span><i>#</i> PostgreSQL</span>
+            <span><i>#</i> Git & GitHub</span>
+            <span><i>#</i> UI Responsiva</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contato">
+        <div class="container contact-shell" data-reveal>
+          <div class="contact-orb orb-a"></div>
+          <div class="contact-orb orb-b"></div>
+          <span class="section-kicker">Tem uma ideia em mente?</span>
+          <h2>Vamos criar algo<br /><em>que vale a pena usar.</em></h2>
+          <p>
+            Estou aberto a projetos, colaborações e oportunidades para continuar
+            construindo produtos digitais relevantes.
+          </p>
+          <div class="contact-actions">
+            <a
+              class="button button-light"
+              href="https://www.linkedin.com/in/joaopedrosantossilva2007"
+              target="_blank"
+              rel="noreferrer"
+              >Falar no LinkedIn <span>↗</span></a
+            >
+            <a
+              class="button button-outline"
+              href="https://github.com/grimm5766-bot"
+              target="_blank"
+              rel="noreferrer"
+              >Acompanhar no GitHub <span>↗</span></a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-shell">
+        <div>
+          <a class="brand" href="#inicio">
+            <span class="brand-mark">JP</span>
+            <span class="brand-name">João Pedro</span>
+          </a>
+          <p>Desenvolvendo um projeto de cada vez.</p>
+        </div>
+        <div class="footer-meta">
+          <a href="#inicio">Voltar ao topo ↑</a>
+          <span>© <span data-year></span> João Pedro Santos Silva</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
