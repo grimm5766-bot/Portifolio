@@ -13,13 +13,18 @@ contato de maneira clara, responsiva e acessível.
 
 ## Executar localmente
 
-Abra o arquivo `index.html` no navegador ou inicie um servidor estático:
+Instale as dependências e inicie o ambiente de desenvolvimento:
 
 ```bash
-npx http-server . -p 8080
+npm install
+npm run dev
 ```
 
-Depois, acesse `http://localhost:8080`.
+Para gerar a versão de produção usada pela Vercel:
+
+```bash
+npm run build
+```
 
 ## Links
 
